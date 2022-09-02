@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+A simple TodoApp (Todoist inspired)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Built with:
+Frontend:
+- React
+- 
+Backend:
+- Mongoose / Mongodb
+- Express
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+What is this and who is it for ⭐
+This is a simple Todoist clone built with React and Express.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Features:
+Written in modern React using functional components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+User authentication via ***
+Create, edit and delete projects
+Create, edit, delete and assign tasks to projects
+End-to-end tested with ******
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Getting started 🛠
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Frontend install instructions:
+***
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Backend install instructions:
+Signup for a Mongodb account *** add Mongo instructions ***
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Create an empty .env.local file in the root directory, copy .env.local.example contents into it, and fill XXX placeholders with your mongodb project credentials.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Shortcomings
+I'm aware of the following shortcomings listed below:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Performance 🚀
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Security 🔒
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Styling 🎨
+***Create theme templates***
 
-### Code Splitting
+Data management 🗄
+Automatic database cleanups are currently missing (e.g. when a project or user is deleted).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Accessibility ♿
+No extra efforts have been put into making this project more accessible. For a production-ready app, adding aria roles and keyboard support would go a long way towards making the app more accessible.
 
-### Analyzing the Bundle Size
+Testing 🧪
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+License
+MIT
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Shout out
+This project was originally inspired by Karl Hadwen's YouTube tutorial Building Todoist From Scratch.
+***Disclaimer***
+This project is entirely for educational purposes. It is in no way connected to Todoist, the app or Doist, the company behind Todoist. 
